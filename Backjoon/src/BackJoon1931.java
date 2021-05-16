@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-import com.sun.tools.javac.code.Attribute.Array;
 
 /*
  * ¹®Á¦:

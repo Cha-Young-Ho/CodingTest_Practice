@@ -1,28 +1,17 @@
-import java.util.ArrayList;
 import java.util.Scanner;
-
+import java.util.HashSet;
+ 
 public class Backjoon3052 {
-
+ 
 	public static void main(String[] args) {
-
-		Scanner sc = new Scanner(System.in);
-		
-		ArrayList<Integer> arr = new ArrayList<Integer>();
-		
+		Scanner in = new Scanner(System.in);
+		HashSet<Integer> h = new HashSet<Integer>();
+ 
 		for (int i = 0; i < 10; i++) {
-			
-			arr.add(sc.nextInt() % 42);
+			h.add(in.nextInt() % 42);
 		}
-		
-		int count = 0;
-		
-		for (int i = 0; i <arr.size(); i++) {
-			for (int j = 0; j < arr.size(); j++) {
-				if(arr.get(i) == arr.get(j)) {
-					arr.remove(j);
-				}
-			}
-		}
+        
+		in.close();
+		System.out.print(h.size());
 	}
-
 }

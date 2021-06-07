@@ -27,6 +27,7 @@ public class BackJoon2562 {
 		
 		System.out.println(max);
 		System.out.println(index);
+		sc.close();
 		
 		
 	}

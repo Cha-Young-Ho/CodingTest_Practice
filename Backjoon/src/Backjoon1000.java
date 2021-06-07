@@ -31,6 +31,7 @@ public class Backjoon1000 {
 		}
 		
 		System.out.println(result/N);
+		sc.close();
 		
 		
 		

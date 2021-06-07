@@ -37,7 +37,7 @@ public class BackJoon2675 {
 			cnt++;
 		}
 		System.out.println("");
-
+		sc.close();
 	}
 
 }

@@ -33,7 +33,7 @@ public class BackJoon10818 {
 		
 		System.out.println(min + " " + max);
 		
-		
+		sc.close();
 		
 		
 

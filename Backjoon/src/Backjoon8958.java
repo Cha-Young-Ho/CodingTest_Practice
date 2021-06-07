@@ -18,7 +18,6 @@ public class Backjoon8958 {
 			cnt++;
 		}
 		
-		int O_num = 0;
 		Stack<Character> str_stack = new Stack<Character>();
 		cnt = 0;
 		while(cnt < case_num) {
@@ -27,7 +26,7 @@ public class Backjoon8958 {
 				str_stack.add(input_arr.get(cnt).charAt(cnt2));
 				cnt2++;
 			}
-			int cnt3 = 0;
+
 			
 			int sum = 0;
 			int result = 0;	
@@ -39,8 +38,8 @@ public class Backjoon8958 {
 				}else {
 					result = 0;
 				}
-				
-				cnt3++;
+
+
 			}
 			
 			System.out.println(sum);

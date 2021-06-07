@@ -11,6 +11,7 @@ public class BackJoon1065 {
 		
 		
 		System.out.println(catch_hansoo(num));
+		sc.close();
 		
 	}
 	

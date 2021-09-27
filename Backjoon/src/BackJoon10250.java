@@ -20,6 +20,7 @@ public class BackJoon10250 {
 			
 			i++;
 		}
+		sc.close();
 		
 		i = 0;
 		while(i < roomNumber.size()) {

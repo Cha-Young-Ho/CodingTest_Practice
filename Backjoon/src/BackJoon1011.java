@@ -18,7 +18,6 @@ public class BackJoon1011 {
 		}
 		
 		sc.close();
-
 	}
 	
 	public static int calcDistance(int start, int end) {

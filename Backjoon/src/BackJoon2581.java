@@ -9,6 +9,7 @@ public class BackJoon2581 {
 		int start = sc.nextInt();
 		int end = sc.nextInt();
 		sc.close();
+		
 		ArrayList<Integer> arr = new ArrayList<>();
 		
 		while(start <= end) {
